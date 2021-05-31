@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import './App.css';
 import Game1 from './components/Game1/Game1'
 import Game2 from './components/Game2/Game2'
+import Game3 from './components/Game3/Game3';
+
 
 export default class App extends Component {
 
@@ -84,7 +86,10 @@ export default class App extends Component {
               }
                {
                 this.state.isGame2 ? <Game2 /> : null
-              }
+  }
+  {
+                this.state.isGame3 ? <Game3 /> : null
+  }
 
             </div>
           </header>
